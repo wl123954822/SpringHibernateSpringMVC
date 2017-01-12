@@ -7,6 +7,6 @@ import com.panxiang.system.entities.User;
 
 public interface UserDao extends BaseDao<User> {
 
-	public User findById(long id);
-	public List<User> findByNameAndPwd(User user);
+	User findById(long id);
+	List<User> findByNameAndPwd(User user);
 }

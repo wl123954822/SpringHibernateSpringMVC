@@ -6,7 +6,7 @@ import com.panxiang.system.entities.User;
 
 public interface UserService {
 
-	public User findById(long id);
+	User findById(long id);
 	
-	public List<User> findByNameAndPwd(User user);
+	List<User> findByNameAndPwd(User user);
 }
